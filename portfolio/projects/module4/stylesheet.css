@@ -1,0 +1,34 @@
+
+blockquote {
+    background: #000;
+    color: #fff;
+    padding: 5px;
+    align-content: normal;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 400%;
+}
+
+footer {
+    background: #6e6e6e;
+    color: #fff;
+    padding: 5px;
+    font-weight: 600;
+}
+
+#container {
+    width: 65%;
+    margin: auto;
+}
+
+main section {
+    border-bottom: 5px solid #000;
+}
+
+/* classes */
+.make-orange {
+    color: #dc6601;
+
+}

@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Quattrocento:wght@400;700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*
+font family: "Libre Baskerville", serif
+font family: "Quattrocento", serif
+font family: "Work Sans", serif
+*/
+
+
+
+header {
+    background: #f2c9c9;
+    padding: 10px;
+    background-image: url(images/360_F_462211609_xfICPg7tPVuitlwd8TdI0vqlls1lbw3J.jpg);
+
+}
+
+header span {
+    display: block;
+    font-family: "Quattrocento";
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: 200;
+}
+
+h1 {
+    font-family: Libre Baskerville;
+    font-size: 300%;
+    color: #fff;
+    background-size: cover;
+    background-position: 20%;
+    position: relative;
+    height: 75px;
+}
+
+h2 {
+    font-family: Quattrocento;
+}
+
+main {
+    padding-bottom: 20px;
+}
+
+nav {
+
+    padding: 1px;
+    background-color: #D19285;
+    max-width: fit-content;
+    border-radius: 0px 0px 7px 7px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Ribeye", serif;
+}
+
+nav ul li {
+    margin: 1px;
+    font-family: Work Sans;
+    display: flex;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background: #D19285;
+    color: #ffffff;
+    padding: 10px;
+    display: block;
+    border-radius: 0px 0px 7px 7px;
+}
+
+nav ul li a:hover {
+    background: #f2c9c9;
+    color: #ffffff;
+}
+
+p {
+    font-family: Work Sans;
+}
+
+
+thead {
+    background: #D19285;
+    color: #fff;
+}
+
+td {
+    font-family: Work Sans;
+}
+
+td:nth-of-type(4) {
+    text-align: center;
+
+}
+
+ td:nth-of-type(2) {
+    text-align: center;
+
+ }
+
+ td:nth-of-type(3) {
+    text-align: center;
+
+ }
+
+ td:nth-of-type(1) {
+    text-align: center;
+    background: #f2c9c9;
+ }
+
+ footer {
+    background: #f2c9c9;
+    color: #fff;
+    padding: 2px;
+    font-family: Quattrocento;
+    background-image: url(images/360_F_462211609_xfICPg7tPVuitlwd8TdI0vqlls1lbw3J.jpg);
+ }
+
+ ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+
+ }
+
+ footer ul img {
+    max-width: 100%;
+    max-height: 40px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+footer section p {
+    font-family: Quattrocento;
+}
+
+ .about {
+    grid-area: about;
+    padding: 15px;
+    padding-right: 20px;
+ }
+
+ .songs {
+    grid-area: songs;
+    padding: 15px;
+    padding-right: 25px;
+ }
+
+ .list {
+    grid-area: list;
+ }
+
+ .table {
+    grid-area: table;
+ }
+
+ main {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "about about list"
+    "about about table"
+    "songs songs table"
+    "songs songs table"
+    ;
+    grid-gap: 8px;
+}
+
+.name {
+    grid-area: name;
+}
+
+.graphic {
+    grid-area: graphic;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "name graphic graphic graphic graphic graphic"
+    ;
+}

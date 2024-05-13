@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+main section {
+    background-color: #FF906D;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 12px;
+    margin: 5px;
+}
+
+main section {
+    text-align: center;
+}
+
+main section p a {
+    color: #000;
+
+}
+
+main section p a:hover {
+    color: #fff;
+}
+
+.web {
+    grid-area: web;
+}
+
+.print {
+    grid-area: print;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "print web"
+    "print web"
+    ;
+    grid-gap: 8px;
+}

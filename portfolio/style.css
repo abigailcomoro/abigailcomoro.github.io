@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*
+ font-family: "Comfortaa", serif;
+ font-family: "Open Sans", serif;
+ font-family: "Roboto", serif;
+*/
+
+header {
+    background-color: #FF906D;
+    background-image: url(images/pngtree-pink-simple-tropical-leaves-background-picture-image_1332690.jpg);
+    padding: 15px;
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 45px;
+}
+
+h1 {
+    font-family: Comfortaa;
+}
+
+h2 {
+    font-family: Comfortaa;
+}
+
+h3 {
+    font-family: Open Sans;
+}
+
+h4 {
+    font-family: Roboto;
+}
+
+nav {
+    font-family: Comfortaa;
+    max-width: fit-content;
+    background-color: #FF906D;
+    border-radius: 0px 0px 12px 12px;
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 5px;
+    margin: 1px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #FF906D;
+    padding: 10px;
+    color: #ffffff;
+}
+
+nav ul li a:hover {
+    background:#e57e8a;
+    color: #ffffff;
+    border-radius: 12px;
+}
+
+main {
+    word-wrap: break-word;
+    width: 1000px;
+    padding-left: 150px;
+}
+
+main p {
+    font-family: Open Sans;
+}
+
+main ul {
+    list-style-type: none;
+}
+
+main section ul li {
+    font-family: Open Sans;
+}
+
+main section img {
+    max-width: 700px;
+}
+
+main section form {
+    font-family: Open Sans;
+    text-align: center;
+    padding: 20px;
+    background-color: #FF906D;
+    border-radius: 12px;
+}
+
+table, th {
+    border: 1px solid #555;
+    font-family: Comfortaa;
+    padding: 5px;
+}
+
+thead {
+    background-color: #FF906D;
+    color: #ffffff;
+    padding: 10px;
+}
+
+tbody {
+    
+    text-align: left;
+    font-family: Roboto;
+}
+
+footer {
+    font-family: Open Sans;
+    background-color: #FF906D;
+    background-image:url(images/pngtree-pink-simple-tropical-leaves-background-picture-image_1332690.jpg);
+    padding: 5px;
+    background-size: cover;
+}

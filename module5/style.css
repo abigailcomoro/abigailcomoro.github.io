@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Joti+One&display=swap');
+
+/** fonts
+font-family: "Josefin Sans", sans-serif;
+font-family: "Joti One", serif;
+**/
+
+* {
+    box-sizing: border-box;
+}
+
+.intro {
+    display: inline-block;
+    background: #000;
+    padding: 20px;
+    margin: 0;
+    width: 300px;
+    color: #fff;
+    height: 100%;
+    padding: 20px;
+    flex: 1 1 25%;
+}
+
+.video {
+    background: #D9D9D9;
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    background: rgba(21, 15, 27, 0.5);
+    display: flex;
+    flex-flow: wrap;
+    flex: 1 1 75%;
+}
+
+h1 {
+    font-family: Joti One;
+}
+
+p, h2 {
+    font-family: Josefin Sans;
+}
+
+main {
+    background-color: #D9D9D9;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+}
+
+main section {
+    padding: 1.5rem;
+}
+
+main section video {
+    padding: 5px;
+}
+
+main video {
+    max-width: 375px;
+}
+
+nav {
+    font-family: Josefin Sans;
+    padding-top: 1.5rem;
+    text-align: right;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li:hover {
+    background: #D9D9D9;
+    transition: .8s;
+}
+
+nav section ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    background: #fff;
+} 
+
+header {
+    background: #D9D9D9;
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    background: rgba(21, 15, 27, 0.5);
+    display: flex;
+    flex-flow: wrap;
+}
+
+footer {
+    padding: 2rem;
+}
+
+footer p {
+    background: #87cefa;
+    display: inline-block;
+    padding: 1rem;
+}
+
+footer p:hover {
+    background: #007fbf;
+    transition: .8s;
+}
+
+/*Video Hero Work*/
+.video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    object-fit: cover;
+    object-position: center bottom;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/*Media queries*/
+@media (min-aspect-ratio: 16/9) {
+    .video video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .video video {
+        width: 100%;
+        height: auto;
+    }
+}

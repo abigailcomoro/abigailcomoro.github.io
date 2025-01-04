@@ -1,0 +1,35 @@
+header {
+    padding: 1rem;
+}
+
+.resume {
+    display: block;
+    flex-flow: column;
+    padding: 1rem;
+}
+
+.resume h2 {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+}
+
+main ul li {
+    list-style-type: none;
+}
+
+/*grid formatting*/
+main {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "resume file"
+    "resume file"
+    "resume file"
+    "resume file"
+    "resume file"
+    "resume file"
+    ;
+    grid-gap: 8px;
+}
